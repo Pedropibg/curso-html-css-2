@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+/*
+cores:
+#c5ebd6 - verde claro (fundo)
+#83e1ad - verde médio
+#3ddc84 - verde escuro
+#2fa866 - verde mais escuro
+#1a5c37 - verde quase preto
+#063d1e - verde preto
+*/
+
+:root {
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --fonte-padrão: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrão);
+    margin: 5px;
+    padding: 5px;
+}
+header {
+    background-color: var(--cor5);
+    padding: 1px;
+    text-align: center;
+    padding: 7px;
+}
+header h1 {
+    color: white;
+    font-family: var(--fonte-destaque)
+}
+header p {
+    color: white;
+    font-family: var(--fonte-padrão);
+}
+nav{
+    background-color: var(--cor3);
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    font-family: var(--fonte-android);
+    text-decoration:solid;
+    margin: 15px;
+}
+nav a:hover {
+    color: var(--cor6);
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+main h1 {
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+}
+main h2 {
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+}
+footer {
+    background-color: var(--cor5);
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-padrão);
+    padding: 3px;
+    margin: 5px;
+}
+footer a {
+    color: rgb(78, 103, 245);
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}

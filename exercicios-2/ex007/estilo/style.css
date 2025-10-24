@@ -42,7 +42,6 @@ body {
 }
 header {
     background-color: var(--cor5);
-    padding: 1px;
     text-align: center;
     padding: 7px;
 }

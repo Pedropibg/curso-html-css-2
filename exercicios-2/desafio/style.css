@@ -23,12 +23,13 @@ header {
     text-align: center;
     min-width: 280px;
     max-width: 1980px;
-    margin-bottom: 20px;
+    margin-bottom: none;
 }
 header h1 {
     padding: 10px;
     font-size: 4.5em;
     font-family: serif, Tahoma, Verdana;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.397);
 }
 header p {
     font-family: serif, Tahoma, Verdana;
@@ -41,6 +42,7 @@ header.silksong {
 nav{
     padding: 5px;
     margin-top: 8px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.38);
 }
 a {
     color: rgb(255, 255, 255);
@@ -54,11 +56,13 @@ a:hover {
 main {
     background-color: white;
     padding: 20px;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.38);
             
     min-width: 280px;
     max-width: 920px;
-    margin: 10px auto 20px auto;
+    margin: 0px auto 20px auto;
 }
 main h2{
     color: var(--cor-hollow-knight);
